@@ -5,7 +5,7 @@
       "src": "package.json",
       "use": "@vercel/node",
       "config": {
-        "nodeVersion": "22.15.1",
+        "nodeVersion": "20.11.1",
         "installCommand": "pnpm install --no-frozen-lockfile",
         "buildCommand": "pnpm run build"
       }
